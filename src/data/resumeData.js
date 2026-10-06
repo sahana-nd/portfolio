@@ -7,8 +7,8 @@ export const resumeData = {
   github: "https://github.com/sahana-nd",
   githubUser: "sahana-nd",
   linkedin: "https://www.linkedin.com/in/sahana-n-418841286/",
-  avatar: "/hero_avatar.jpg",
-  resumePdf: "/Sahana_Resume.pdf",
+  avatar: "./hero_avatar.jpg",
+  resumePdf: "./Sahana_Resume.pdf",
   
   summary: "Information Science Engineering graduate with hands-on experience in Java Full Stack Development, RESTful APIs, Spring Boot, MySQL, and React.js, alongside AI & Machine Learning solutions.",
 
@@ -54,7 +54,7 @@ export const resumeData = {
       period: "Feb 2026 – May 2026",
       type: "Internship",
       projectTitle: "Hospital Management System",
-      projectImage: "/project_hospital_mgmt.jpg",
+      projectImage: "./project_hospital_mgmt.jpg",
       highlights: [
         "Built a full-stack Hospital Management System using Java, Spring Boot, JDBC, MySQL, HTML, CSS, and JavaScript.",
         "Designed REST APIs, role-based authentication modules, appointment booking workflows, and CRUD operations.",
@@ -70,7 +70,7 @@ export const resumeData = {
       id: "smart-eyewear",
       title: "Smart Eyewear for Inclusive Communication",
       category: "AI & Embedded Systems",
-      image: "/project_smart_eyewear.jpg",
+      image: "./project_smart_eyewear.jpg",
       description: "AI-powered wearable assistive solution integrating computer vision, speech recognition, gesture detection, and obstacle detection for accessibility.",
       techStack: ["Python", "OpenCV", "TensorFlow", "ESP32", "Speech Recognition", "Computer Vision"],
       keyFeatures: [
@@ -88,7 +88,7 @@ export const resumeData = {
       id: "fraud-detection",
       title: "Credit Card Fraud Detection System",
       category: "Machine Learning / Python",
-      image: "/project_fraud_detection.jpg",
+      image: "./project_fraud_detection.jpg",
       description: "Machine learning model built using Python, Pandas, and Decision Trees to accurately detect fraudulent credit card transactions.",
       techStack: ["Python", "Pandas", "Scikit-Learn", "Decision Trees", "Data Preprocessing", "Model Evaluation"],
       keyFeatures: [

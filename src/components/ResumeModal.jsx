@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Download, FileText, ExternalLink } from 'lucide-react';
+import { X, Download, FileText } from 'lucide-react';
 import { resumeData } from '../data/resumeData';
 
 export default function ResumeModal({ isOpen, onClose }) {
@@ -56,8 +56,10 @@ export default function ResumeModal({ isOpen, onClose }) {
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <a
-              href={resumeData.resumePdf}
+              href="./Sahana_Resume.pdf"
               download="Sahana_N_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
               className="btn-primary"
               style={{ padding: '0.5rem 1.1rem', fontSize: '0.85rem' }}
             >
@@ -81,7 +83,7 @@ export default function ResumeModal({ isOpen, onClose }) {
 
         {/* Embedded PDF iframe */}
         <iframe
-          src={resumeData.resumePdf}
+          src="./Sahana_Resume.pdf"
           title="Sahana N Resume PDF"
           style={{
             width: '100%',
